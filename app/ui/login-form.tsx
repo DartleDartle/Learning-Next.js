@@ -60,6 +60,7 @@ export default function LoginForm() {
             </div>
           </div>
         </div>
+        The log-in credentials are: E-mail: user@nextmail.com Password: 123456
         <LoginButton />
         <div className="flex h-8 items-end space-x-1">
           {code === 'CredentialSignin' && (
